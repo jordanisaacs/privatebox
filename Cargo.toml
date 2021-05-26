@@ -1,0 +1,30 @@
+[package]
+name = "privatebox"
+version = "0.1.0"
+authors = ["Jordan Isaacs"]
+edition = "2018"
+license = "MIT"
+keywords = ["encryption", "storage", "container", "xchachapoly1305"]
+categories = ["cryptography", "no-std"]
+homepage = "https://github.com/jordanisaacs/secretbox"
+repository = "https://github.com/jordanisaacs/secretbox"
+documentation = "https://docs.rs/secretbox"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chacha20poly1305 = { version = "0.8.0", default-features = false, features = ["xchacha20poly1305"] }
+zeroize = { version = "1.3.0", default-features = false }
+rand_core = { version = "0.6.2", default-features = false }
+
+[features]
+default = ["alloc"]
+alloc = ["chacha20poly1305/alloc"]
+
+[dev-dependencies]
+rand = "0.8.3"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docs_rs"]
