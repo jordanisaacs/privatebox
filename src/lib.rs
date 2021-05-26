@@ -1,5 +1,6 @@
 #![forbid(unsafe_code)]
 #![warn(missing_docs, unused_qualifications)]
+#![cfg_attr(docs_rs, feature(doc_cfg))]
 #![no_std]
 
 //! # PrivateBox

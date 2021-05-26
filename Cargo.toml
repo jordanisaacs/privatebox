@@ -1,6 +1,6 @@
 [package]
 name = "privatebox"
-version = "0.1.0"
+version = "0.1.1"
 description = "A small and easy to use API to encrypt your data."
 authors = ["Jordan Isaacs"]
 edition = "2018"
