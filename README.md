@@ -56,7 +56,7 @@ Example:
 
 ```rust
 let mut privatebox = PrivateBox::new(&[1; 32], OsRng);
-t header = &[5, 4, 3, 2];
+let header = &[5, 4, 3, 2];
 let metadata = &[3, 3, 3];
 
 let wrapped = privatebox.encrypt(b"secret data", header, metadata).expect("encrypt");
