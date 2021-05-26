@@ -5,7 +5,7 @@
 
 # PrivateBox
 
-PrivateBox provides a small and easy to use API to encrypt your data. It is meant to do one thing, be a simple wrapper and validator around the RustCrypto XChaCha20Poly1305 AEAD encryption algorithm.
+PrivateBox provides a small and easy to use API to encrypt your data. It is meant to do one thing, be a simple wrapper and validator around the RustCrypto [XChaCha20Poly1305 AEAD](https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305) encryption algorithm.
 
 PrivateBox is inspired/based off of [Cocoon](https://github.com/fadeevab/cocoon/blob/master/README.md). PrivateBox is meant to be a smaller API, more flexible with associated data, and uses XChaCha for random nonces.
 
