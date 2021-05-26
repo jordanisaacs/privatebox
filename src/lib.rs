@@ -503,7 +503,7 @@ impl<T: RngCore> PrivateBox<T> {
     /// let container = privatebox.encrypt(&*b"data", header, &[])?;
     /// let insecure_header = privatebox.parse_insecure_header(&container)?;
     ///
-    /// // In this case header and insecure header are the same (but not guranteed)
+    /// // In this case header and insecure header are the same (but not guaranteed)
     /// assert_eq!(&insecure_header, header);
     /// # Ok(())
     /// # }
