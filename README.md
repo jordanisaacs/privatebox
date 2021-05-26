@@ -1,3 +1,6 @@
+[![PrivateBox](https://github.com/jordanisaacs/privatebox/actions/workflows/rust.yml/badge.svg)](https://github.com/jordanisaacs/privatebox)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jordanisaacs/privatebox/blob/master/LICENSE)
+
 # PrivateBox
 
 PrivateBox provides a small and easy to use API to encrypt your data. It is meant to do one thing, be a simple wrapper and validator around the RustCrypto XChaCha20Poly1305 AEAD encryption algorithm.
