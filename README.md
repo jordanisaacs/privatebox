@@ -41,7 +41,7 @@ privatebox.decrypt_detached(&mut message, &assoc_data, &detached_prefix)?;
 assert_eq!(&message, b"secret data");
 ```
 
-See the *placeholder for docs* for examples and more information.
+See the docs for examples and more information.
 
 ## PrivateBox Container
 
@@ -61,4 +61,4 @@ assert_eq!(message, b"secret data");
 assert_eq!(&authenticated_header, header);
 ```
 
-See the *placeholder for docs* for examples and more information.
+See the docs for examples and more information.
