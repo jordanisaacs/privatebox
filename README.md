@@ -9,6 +9,11 @@ PrivateBox provides a small and easy to use API to encrypt your data. It is mean
 
 PrivateBox is inspired/based off of [Cocoon](https://github.com/fadeevab/cocoon/blob/master/README.md). PrivateBox is meant to be a smaller API, more flexible with associated data, and uses XChaCha for random nonces.
 
+To use add to Cargo.toml:
+```
+privatebox = "0.1.1"
+```
+
 ## Generating a key
 
 The examples just use array generation for the key to keep the code duplication down. However, keys should be random or pseudo-random (aka derived from something like a password).
