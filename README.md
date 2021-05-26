@@ -1,4 +1,6 @@
 [![PrivateBox](https://github.com/jordanisaacs/privatebox/actions/workflows/rust.yml/badge.svg)](https://github.com/jordanisaacs/privatebox)
+[![crates.io](https://img.shields.io/crates/v/privatebox.svg)](https://crates.io/crates/privatebox)
+[![docs.rs](https://docs.rs/privatebox/badge.svg)](https://docs.rs/privatebox/)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jordanisaacs/privatebox/blob/master/LICENSE)
 
 # PrivateBox
